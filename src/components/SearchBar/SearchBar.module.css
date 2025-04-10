@@ -1,0 +1,31 @@
+.form {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    
+  }
+  .input {
+    width: 360px;
+    padding: 16px;
+    background-color: #fafafa;
+    padding-right: 40px;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    
+  }
+  
+  .button {
+    width: 40px;
+    height: 40px;
+  
+    font-size: 20px;
+    font-weight: bold;
+   background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .header{
+    background-color: blue;
+  }
+  
