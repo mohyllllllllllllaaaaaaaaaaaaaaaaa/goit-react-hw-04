@@ -6,8 +6,8 @@ import css from "./ImageCard.module.css";
   };
 
   return (
-    <div className={css.card} onClick={handleClick}>
-      <img src={src} alt={alt} className={css.image} />
+    <div className={css.card} >
+      <img src={src} alt={alt} className={css.image} onClick={handleClick} />
     </div>
   );
 };

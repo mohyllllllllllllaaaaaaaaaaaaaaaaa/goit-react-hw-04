@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import SearchBar from './components/SearchBar/SearchBar';
-import PhotoGallery from './components/PhotosGallery/PhotosGallery';
+import ImageGallery from './components/ImageGallery/ImageGallery';
 import { getPhotos } from './ApiService/photos';
 import Loader from './components/Loader/Loader';
 import LoadMoreButton from './components/LoadMoreBtn/LoadMoreBtn';
@@ -79,7 +79,7 @@ function App() {
       <Toaster position="top-right" />
       <SearchBar onSubmit={onHandelSubmit} />
       {error && <ErrorMessage message={error} />}
-      <PhotoGallery images={images} onImageClick={openModal}/>
+      <ImageGallery images={images} onImageClick={openModal}/>
       {loading && <Loader />}
       {images.length > 0 && page < totalPages && !loading && (
         <LoadMoreButton onClick={handleLoadMore} disabled={isScrolling} />

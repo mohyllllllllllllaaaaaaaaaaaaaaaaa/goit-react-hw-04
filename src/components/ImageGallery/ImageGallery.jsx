@@ -1,5 +1,5 @@
 import ImageCard from '../ImageCard/ImageCard';
-import css from "./PhotosGallery.module.css";
+import css from "./imageGallery.module.css";
 
  const PhotoGallery = ({ images, onImageClick, isScrolling }) => {
   return (
