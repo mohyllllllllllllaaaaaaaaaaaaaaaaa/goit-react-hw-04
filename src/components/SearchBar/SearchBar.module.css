@@ -26,6 +26,14 @@
     right: 0;
   }
   .header{
+    width: 100vw; 
     background-color: blue;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .div{
+    width: 100%;
   }
   

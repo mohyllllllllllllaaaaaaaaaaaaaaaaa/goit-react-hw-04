@@ -22,6 +22,7 @@ export const SearchBar = ({ onSubmit }) => {
   };
 
   return (
+    <div className="div">
     <header className={css.header}>
       <form onSubmit={handleSubmit} className={css.form}>
         <input
@@ -38,6 +39,7 @@ export const SearchBar = ({ onSubmit }) => {
         </button>
       </form>
     </header>
+    </div>
   );
 };
 export default SearchBar;

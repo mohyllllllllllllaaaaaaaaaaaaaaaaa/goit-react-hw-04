@@ -1,12 +1,9 @@
 .list {
-  /*display: grid;
-  grid-template-columns: repeat(4, 1fr);
- gap: 40px;
- margin-bottom: 40px;*/
+
  display: flex;
  flex-wrap: wrap;
  justify-content: space-between; 
- gap: 15px; 
+ gap: 20px; 
  padding-bottom: 30px; 
 }
 
@@ -18,15 +15,18 @@
   padding-bottom: 30px;
 }
 .item {
-/*display: flex; 
-object-position: center;*/
-flex: 0 1 calc(25% - 15px); 
+
+object-position: center;
+flex: 0 1 calc(25% - 35px); 
 margin-bottom: 15px
 }
 .scroll-animation {
   animation: scrollToNewImages 0.5s ease-out;
 }
-
+.item img{
+  width: 340px;
+  height: 200px;
+}
 @keyframes scrollToNewImages {
   0% {
     transform: translateY(0);
