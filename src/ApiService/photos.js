@@ -8,7 +8,7 @@ export const getPhotos = async (query, page = 1, ) => {
     params: {
       query,
       page,
-      per_page: 15,
+      per_page: 16,
       client_id: API_KEY,
       orientation: 'landscape',
      
